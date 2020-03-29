@@ -1,5 +1,5 @@
 <!--pages/guide/guide-components/prefect-title/prefect-title.wxml-->
-<view  class="f30 flex-r-c bg-white">
-	<view class="dd f30">{{title}}</view>
-	<view>{{page}}</view>
+<view  class="prefect-title flex-r-b bg-white fw">
+	<view class="f25 ">{{title}}</view>
+	<view class="f18 ">{{page}}<text class="total f16">/{{total}}</text></view>
 </view>

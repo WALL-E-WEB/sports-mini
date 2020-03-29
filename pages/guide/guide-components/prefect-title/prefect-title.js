@@ -1,8 +1,8 @@
 // pages/guide/guide-components/prefect-title/prefect-title.js
 Component({
   options: {
-    // styleIsolation:'apply-shared',
-    addGlobalClass: true
+    styleIsolation:'apply-shared',
+    // addGlobalClass: true
   },
   /**
    * 组件的属性列表
@@ -10,12 +10,16 @@ Component({
   properties: {
     title: {
       type: String,
-      value: '标题'
+      value: '完善资料'
     },
     page: {
       type: String,
       optionalTypes: [Number],
       value: '1'
+    },
+    total:{
+      type:String,
+      value:'2'
     }
   },
 

@@ -5,3 +5,41 @@
   background-color: aquamarine;
   padding:40rpx;
 }
+/*  */
+.gender-wrap{
+  margin-top: 80rpx;
+}
+.gender-text{
+  padding-bottom: 10rpx;
+}
+.gender-select{
+  margin-top: 40rpx;
+  
+}
+.gender-select .man,.gender-select .woman{
+  width: 48%;
+  border:1px solid #2b2a3a;
+  border-radius: 8px;
+  padding:20rpx;
+}
+.gender-select .gender-radio{
+  position: relative;
+  align-self: flex-end;
+}
+
+.man .man-icon,.woman .woman-icon{
+  font-size: 200rpx;
+}
+/* 选中状态 */
+.man.noSelect,
+.woman.noSelect{
+  border-color: #b9babf;
+  
+}
+.noSelect .man-icon,
+.noSelect .woman-icon{
+  color: #b9babf;
+}
+.noSelect .text{
+  color: #b9babf;
+}

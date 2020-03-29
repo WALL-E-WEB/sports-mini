@@ -2,7 +2,10 @@ view{
   box-sizing: border-box;
 }
 view,text{
-  font-size: 28rpx;
+  /* font-size: 28rpx; */
+  color: #2b2a3a;
+  /* font-family: PingFangSC-Regular, sans-serif; */
+  font-family: PingFangSC-Medium, sans-serif;
 }
 .f12{
   font-size: 24rpx;
@@ -19,11 +22,23 @@ view,text{
 .f20{
   font-size: 40rpx;
 }
+.f25{
+  font-size: 50rpx;
+}
 .f30{
   font-size: 60rpx;
 }
 .fw{
   font-weight: 700;
+}
+.fw-500{
+  font-weight: 500;
+}
+.fw-600{
+  font-weight: 600;
+}
+.fc-sub{
+  color: #b9babf;
 }
 /* flex */
 .flex-r-c{
@@ -37,7 +52,14 @@ view,text{
   justify-content: center;
   align-items: center;
 }
-
+.flex-r-b{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.flex-1{
+  flex: 1;
+}
 /* main color */
 .bg-white{
   background-color: #fff;
