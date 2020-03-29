@@ -1,7 +1,12 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/guide/prefect-gender/prefect-gender",
+    "pages/guide/prefect-weight/prefect-weight",
+    "pages/guide/goal/goal",
+    "pages/guide/notice/notice",
+    "pages/guide/guide"
   ],
   "window": {
     "backgroundTextStyle": "light",

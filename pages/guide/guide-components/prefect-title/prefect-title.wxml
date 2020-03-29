@@ -1,0 +1,5 @@
+<!--pages/guide/guide-components/prefect-title/prefect-title.wxml-->
+<view  class="f30 flex-r-c bg-white">
+	<view class="dd f30">{{title}}</view>
+	<view>{{page}}</view>
+</view>
