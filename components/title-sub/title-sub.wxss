@@ -1,0 +1,7 @@
+/* components/title-sub/title-sub.wxss */
+.title-sub{
+  letter-spacing: 4rpx;
+}
+.title-sub .title{
+  margin-bottom: 10rpx;
+}

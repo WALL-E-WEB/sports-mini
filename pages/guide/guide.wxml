@@ -1,11 +1,11 @@
 <!--pages/guide/guide.wxml-->
 <view class="guide">
 	<prefect-title title="完善资料" page="2" />
-  <!--  -->
+	<!--  -->
 	<view class="gender-wrap">
 		<view class="f18 fw-600 gender-text">请选择性别</view>
 		<view class="fc-sub">性别一经下选择不可修改</view>
-    <!--  -->
+		<!--  -->
 		<radio-group class="gender-select flex-r-b">
 			<view class="man flex-c-c {{!isChecked?'noSelect':''}}" bindtap="onSelectMan">
 				<radio class="gender-radio" checked="{{isChecked}}" color="#2b2a3a"></radio>
@@ -19,6 +19,13 @@
 			</view>
 		</radio-group>
 	</view>
-  <view>填写生日</view>
-  <view>将作为部分训练数据的计算依赖</view>
+	<title-sub class="title-sub-class " title="填写生日" title-sub="将作为部分训练数据的计算依据" />
+	<view class=" picker-wrap mg-top-40">
+		<picker mode="date" start="2000-08-08" value="{{date}}" bindchange="onSelectBirthday">
+			<view class="picker f25 fw ">
+				{{date}}
+			</view>
+		</picker>
+	</view>
+  <button-main />
 </view>

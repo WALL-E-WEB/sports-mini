@@ -2,7 +2,7 @@
 .guide{
   width: 100%;
   height: 100vh;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   padding:40rpx;
 }
 /*  */
@@ -42,4 +42,13 @@
 }
 .noSelect .text{
   color: #b9babf;
+}
+
+.title-sub-class{
+  margin-top: 40rpx;
+}
+
+.guide .picker-wrap{
+  border-bottom: 1px solid #d6cc91;
+  padding-bottom: 20rpx;
 }

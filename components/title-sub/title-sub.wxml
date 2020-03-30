@@ -1,0 +1,5 @@
+<!--components/title-sub/title-sub.wxml-->
+<view class="title-sub title-sub-class">
+<view class="title f18 fw">{{title}}</view>
+<view class="sub fc-sub">{{subtitle}}</view>
+</view>

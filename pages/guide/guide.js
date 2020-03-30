@@ -10,6 +10,7 @@ Page({
    */
   data: {
     isChecked:false,
+    date:'2001-08-08'
   },
   onSelectMan(e){
     this.setData({
@@ -18,8 +19,14 @@ Page({
 
   },
   onSelectWoman(){
-    this.setData({
-      isChecked:false
+      this.setData({
+        isChecked:false
     })
   },
+  onSelectBirthday(e){
+    console.log('22',e)
+    this.setData({
+      date: e.detail.value
+    })
+  }
 })

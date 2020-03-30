@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "prefect-title":"/pages/guide/guide-components/prefect-title/prefect-title"
+    "prefect-title":"/pages/guide/guide-components/prefect-title/prefect-title",
+    "title-sub":"/components/title-sub/title-sub",
+    "button-main":"/components/button/button"
   }
 }

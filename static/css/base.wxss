@@ -84,3 +84,10 @@ view,text{
 .bg-sub-cyan{
   background-color: #04d39b;
 }
+/* maring */
+.mg-top-40{
+  margin-top: 40rpx;
+}
+.mg-bottom-40{
+  margin-bottom: 40rpx;
+}
