@@ -29,10 +29,8 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    onclick(e){
-      this.setData({
-        width:'50%'
-      })
+    onclick(){
+      this.triggerEvent('Next')
     }
   }
 })

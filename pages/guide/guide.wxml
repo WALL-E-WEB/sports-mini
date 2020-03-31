@@ -1,6 +1,6 @@
 <!--pages/guide/guide.wxml-->
 <view class="guide">
-	<prefect-title title="完善资料" page="2" />
+	<prefect-title title="完善资料" page="1" />
 	<!--  -->
 	<view class="gender-wrap">
 		<view class="f18 fw-600 gender-text">请选择性别</view>
@@ -27,5 +27,5 @@
 			</view>
 		</picker>
 	</view>
-  <button-main />
+  <button-main bindNext="onNext"/>
 </view>

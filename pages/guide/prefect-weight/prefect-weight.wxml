@@ -1,2 +1,9 @@
 <!--pages/guide/prefect-weight/prefect-weight.wxml-->
-<text>pages/guide/prefect-weight/prefect-weight.wxml</text>
+<view class="wrap">
+	<prefect-title page="2" />
+	<view class="page-section-spacing">
+		<scroll-view class="scroll-view_H" scroll-left="-200px" scroll-x="true" bindscroll="scroll" style="width: 100%">
+			<view class="scroll-item" wx:for='{{60}}'>{{item}}</view>
+		</scroll-view>
+	</view>
+</view>

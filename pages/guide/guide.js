@@ -28,5 +28,10 @@ Page({
     this.setData({
       date: e.detail.value
     })
+  },
+  onNext(){
+    wx.navigateTo({
+      url: '/pages/guide/prefect-weight/prefect-weight',
+    })
   }
 })

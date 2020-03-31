@@ -7,7 +7,12 @@ Page({
   data: {
 
   },
-
+  //事件
+  scroll(e){
+    // console.log(e)
+    console.log(e.detail.deltaX);
+    
+  },
   /**
    * 生命周期函数--监听页面加载
    */
