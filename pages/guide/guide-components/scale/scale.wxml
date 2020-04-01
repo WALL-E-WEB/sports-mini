@@ -1,0 +1,17 @@
+<!--pages/guide/guide-components/scale/scale.wxml-->
+<view class="scale">
+	<view class="scale-title">身高</view>
+	<view>{{value}}</view>
+	<view class="scroll-view-wrap">
+
+		<view class="pointer"></view>
+		<scroll-view class="scroll-view" scroll-left="" enable-flex="true" scroll-x="true" bindscroll="scroll" style="width: 100%;height:100px">
+			<view class="scroll-item-wrap">
+
+				<view class="scroll-item {{index%5==0?'five':''}} {{index%10==0?'ten':''}}" wx:for='{{60}}' wx:key='index' style="margin-right:10px">
+					<view class="numerical">{{index%10==0?index:''}}</view>
+				</view>
+			</view>
+		</scroll-view>
+	</view>
+</view>
