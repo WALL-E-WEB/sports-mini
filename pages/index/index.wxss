@@ -78,3 +78,9 @@
   border-radius: 4px;
   
 }
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
