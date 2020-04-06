@@ -1,0 +1,19 @@
+/**index.wxss**/
+
+.scroll-warp{
+  padding:20rpx;
+  /* border: 1px solid #ccc; */
+  position: relative;
+}
+
+.scroll-view_H{
+  white-space: nowrap;
+  display: flex;
+  position: absolute;
+}
+
+
+
+
+
+

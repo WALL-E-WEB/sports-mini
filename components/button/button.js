@@ -18,6 +18,10 @@ Component({
     width:{
       type:String,
       value:'100%'
+    },
+    plain:{
+      type:Boolean,
+      value:false
     }
   },
 
@@ -30,7 +34,8 @@ Component({
    */
   methods: {
     onclick(){
-      this.triggerEvent('Next')
+      console.log('botton')
+      this.triggerEvent('Next',{})
     }
   }
 })

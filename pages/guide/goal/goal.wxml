@@ -1,2 +1,23 @@
 <!--pages/guide/goal/goal.wxml-->
-<text>pages/guide/goal/goal.wxml</text>
+<view class="goal">
+	<view class="skip fc-yellow">跳过</view>
+	<view class="fw f30">
+		亲爱的骑士
+	</view>
+	<view class="fw f30">为自己定个小目标</view>
+	<view class="goal-wrap">
+		<view 
+    data-index="{{index}}" 
+    class="goal-item flex-r-b bg-sub {{select==index?'select':''}}" 
+    wx:for="{{goalList}}" 
+    bindtap="onSelectGoal"
+    wx:key="text"
+    >
+			<view class="text">{{item.text}}</view>
+			<view class="iconfont {{item.font}} font"></view>
+		</view>
+	</view>
+  <view class="button-next">
+  <button-next bindNext="onNext"/>
+  </view>
+</view>

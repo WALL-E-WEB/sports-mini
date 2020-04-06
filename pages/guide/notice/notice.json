@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "botton-next":"/components/button/button"
+  }
 }

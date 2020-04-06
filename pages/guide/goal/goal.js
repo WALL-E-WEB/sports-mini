@@ -5,9 +5,24 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    goalList:[
+      {text:'减脂',font:'icon-jianfei'},
+      {text:'增肌',font:'icon-jianshenfang'},
+      {text:'坚持锻炼',font:'icon-aixin'},
+    ],
+    select:0
   },
-
+  onSelectGoal(e){
+    this.setData({
+      select:e.target.dataset.index
+    })
+  },
+  onNext(){
+    console.log('bb')
+    wx.navigateTo({
+      url: '/pages/guide/notice/notice',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

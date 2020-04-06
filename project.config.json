@@ -6,6 +6,7 @@
 	"setting": {
 		"urlCheck": false,
 		"es6": true,
+		"enhance": true,
 		"postcss": true,
 		"preloadBackgroundData": false,
 		"minified": true,
@@ -24,7 +25,7 @@
 		}
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.10.3",
+	"libVersion": "2.10.2",
 	"appid": "wx89f372fd7b87ee0c",
 	"projectname": "sports",
 	"debugOptions": {
@@ -68,6 +69,20 @@
 					"id": -1,
 					"name": "pages/guide/prefect-weight/prefect-weight",
 					"pathName": "pages/guide/prefect-weight/prefect-weight",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/guide/prefect-weight/prefect-weight",
+					"pathName": "pages/guide/prefect-weight/prefect-weight",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "pages/guide/notice/notice",
+					"pathName": "pages/guide/notice/notice",
 					"query": "",
 					"scene": null
 				}

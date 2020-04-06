@@ -1,0 +1,4 @@
+<!--components/ruler/ruler.wxml-->
+<canvas id="ruler" type="2d" style=" width:1595px;"></canvas>
+<!-- style=" width: canvasWpx;" -->
+<!-- 需要在获取canvasdom前设置 canvas widht才不会被拉伸 -->

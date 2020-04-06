@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "scale":"/pages/guide/guide-components/scale/scale"
+    "prefect-title":"/pages/guide/guide-components/prefect-title/prefect-title",
+    "ruler":"/components/ruler/ruler"
   }
 }

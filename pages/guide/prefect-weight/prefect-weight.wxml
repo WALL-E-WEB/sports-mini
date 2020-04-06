@@ -1,5 +1,8 @@
-<!--pages/guide/prefect-weight/prefect-weight.wxml-->
-<view class="wrap">
-	<prefect-title page="2" />
-	<scale />
+<!--index.wxml-->
+<view class="container">
+	<!-- <prefect-title /> -->
+	<view>sss</view>
+	<scroll-view id="scroll" class="scroll-warp scroll-view_H" scroll-left="10" scroll-x="true" style="height: 300rpx;width:100%;" bindscroll="scroll">
+		<ruler scroll-width="{{scrollWidth}}"  />
+	</scroll-view>
 </view>

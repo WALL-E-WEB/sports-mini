@@ -1,1 +1,10 @@
 /* pages/guide/notice/notice.wxss */
+.notice .btn{
+  position: fixed;
+  bottom: 40rpx;
+  left: 50%;
+  transform: translate(-50%,0);
+  width: 100%;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+}

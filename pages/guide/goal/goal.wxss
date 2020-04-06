@@ -1,1 +1,38 @@
 /* pages/guide/goal/goal.wxss */
+.goal{
+  position: relative;
+  padding: 80rpx 40rpx 0 40rpx;
+}
+.skip{
+  position: fixed;
+  right: 20rpx;
+  top: 20rpx;
+}
+.goal-wrap{
+  margin-top: 80rpx;
+}
+.goal-item{
+  margin-bottom: 20rpx;
+  width: 100%;
+  border-radius: 100px;
+  padding: 20rpx 40rpx 20rpx 30rpx;
+}
+.button-next{
+  position: fixed;
+  bottom: 80rpx;
+  left: 50%;
+  transform: translate(-50%,0);
+  width: 90%;
+}
+/* 选中 */
+.goal-item.select{
+  background-color: #2b2a3a;
+}
+.goal-item.select .text{
+  color: #fff;
+}
+.goal-item.select .font{
+  background-color: #Fff;
+  border-radius: 4px;
+  padding: 8rpx;
+}

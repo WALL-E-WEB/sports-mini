@@ -46,11 +46,19 @@ view,text{
 .fc-sub{
   color: #b9babf;
 }
+.fc-yellow{
+  color: #fd8a0d;
+}
 /* flex */
 .flex-r-c{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.flex-r-s{
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 .flex-c-c{
   display: flex;
@@ -61,10 +69,16 @@ view,text{
 .flex-r-b{
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
 }
 .flex-1{
   flex: 1;
+}
+/* position */
+.p-a-r{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
 }
 /* main color */
 .bg-white{
@@ -75,6 +89,9 @@ view,text{
 }
 .bg-black{
   background-color: #2b2a3a;
+}
+.bg-sub{
+  background-color:#f1f2f6;
 }
 
 /* sub color */
@@ -91,9 +108,36 @@ view,text{
   background-color: #04d39b;
 }
 /* maring */
+.mg-top-10{
+  margin-top: 10rpx;
+}
+.mg-top-20{
+  margin-top: 20rpx;
+}
 .mg-top-40{
   margin-top: 40rpx;
 }
 .mg-bottom-40{
   margin-bottom: 40rpx;
 }
+
+/*  */
+.text-ell-1{
+  display:block ;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+ }
+ .text-ell-2{
+
+  text-overflow:ellipsis;
+ 
+  overflow:hidden;
+ 
+  display:-webkit-box;
+ 
+  -webkit-line-clamp:2; /*这个数字是设置要显示省略号的行数*/
+ 
+  -webkit-box-orient:vertical;
+ 
+ }

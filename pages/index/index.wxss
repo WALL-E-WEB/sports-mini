@@ -1,27 +1,60 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+
+
+
+
+
+
+.exercise{
+
+}
+.exercise .monthly{
+  background:linear-gradient(135deg,#48495e,#2b2a3a);
+}
+.monthly .headline{
+  margin-bottom: 40rpx;
+}
+.monthly{
+  padding:40rpx 30rpx;
+  border-radius: 16rpx;
+}
+.exercise .monthly text{
+ color: #b9babf;
+ font-size: 24rpx;
+ margin-bottom: 10rpx;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.exercise .monthly .title{
+  color: #fff;
+  font-weight: 700;
+  font-size: 44rpx;
 }
-
-.userinfo-nickname {
-  color: #aaa;
+.monthly .right{
+  color:#b9babf ;
+  font-weight: 700;
+  font-size: 32rpx;
 }
-
-.usermotto {
-  margin-top: 200px;
+/* 我的训练 */
+.mytraining{
+  margin-top: 40rpx;
 }
+.mytraining .head .find text{
+  color:#b9babf ;
+  font-size: 28rpx;
+  vertical-align: middle;
+}
+.mytraining-wrap{
 
-.footer{
-  background-color: #ccc;
-  height: 100px;
-  width: 100%;
+}
+.mytraining-item{
+  margin-top:30rpx;
+}
+.mytraining-item image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 6px;
+}
+.mytraining-item .text{
+  padding-left: 10rpx;
 }
