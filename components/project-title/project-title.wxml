@@ -1,0 +1,9 @@
+<!--components/project-title/project-title.wxml-->
+<view class="project-title flex-r-b">
+<view class="title fw">{{title}}</view>
+<view wx:if="{{!slot}}" class="sub-title flex-r-c youbian"> 
+  <text class="fc-sub f14">{{subTitle}}</text>
+  <text wx:if="{{icon}}" class="iconfont icon-youbian fc-sub f14 youbian"></text>
+</view>
+<slot></slot>
+</view>

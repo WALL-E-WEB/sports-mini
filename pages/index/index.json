@@ -1,6 +1,7 @@
 {
   "usingComponents": {
-    "ruler-canvas":"/components/ruler/ruler"
+    "ruler-canvas":"/components/ruler/ruler",
+    "project-title":"/components/project-title/project-title"
   },
   "navigationBarTitleText": "运动"
 }

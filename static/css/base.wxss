@@ -65,6 +65,7 @@ view,text{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* align-content: center; */
 }
 .flex-r-b{
   display: flex;

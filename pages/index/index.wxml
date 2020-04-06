@@ -22,14 +22,13 @@
 	</view>
 	<!-- 我的训练 -->
 	<view class="mytraining">
-		<view class="head flex-r-b">
-			<text class="fw">我的训练</text>
-			<view class="find flex-r-c"> <text class="iconfont icon-jia">发现课程</text></view>
-		</view>
+    <project-title class="head">
+    	<view class="find flex-r-c"> <text class="iconfont icon-jia">发现课程</text></view>
+    </project-title>
     <view class="mytraining-wrap">
       <view class="mytraining-item flex-r-s">
         <view>
-        <image class="img" src="/static/image/1.png"></image>
+        <image class="img" src="/static/image/2.jpg"></image>
         </view>
         <view class="text text-ell-1">
           <view class="main fw f14">20分钟然子燃脂</view>
@@ -39,4 +38,14 @@
 
     </view>
 	</view>
+  <!-- 推荐课程 -->
+  <view class="recom">
+    <project-title title="推荐课程" icon/>
+    <scroll-view class="recom-wrap" scroll-x="true">
+      <view class="recom-item flex-c-c" wx:for="{{10}}">
+        <view><image src="/static/image/4.jpg"></image></view>
+        <text class="fw mg-top-20">课程</text>
+      </view>
+    </scroll-view>
+  </view>
 </view>

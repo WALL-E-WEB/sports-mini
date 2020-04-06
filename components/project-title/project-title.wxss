@@ -1,0 +1,5 @@
+/* components/project-title/project-title.wxss */
+.icon-youbian.youbian{
+  padding-top: 10rpx;
+  padding-left: 10rpx;
+}
