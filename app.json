@@ -6,7 +6,8 @@
     "pages/guide/prefect-weight/prefect-weight",
     "pages/guide/goal/goal",
     "pages/guide/notice/notice",
-    "pages/guide/guide"
+    "pages/guide/guide",
+    "pages/course/course"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -17,36 +18,38 @@
   "tabBar": {
     "color": "#2b2a3a",
     "selectedColor": "#2b2a3a",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "运动",
-      "iconPath": "/static/image/yundon.png",
-      "selectedIconPath": "./static/image/yundon2.png"
-    },
-    {
-      "pagePath": "pages/index/index",
-      "text": "课程",
-      "iconPath": "./static/image/kecheng.png",
-      "selectedIconPath": "./static/image/kecheng2.png"
-    },
-    {
-      "pagePath": "pages/index/index",
-      "text": "圈子",
-      "iconPath": "./static/image/quanz.png",
-      "selectedIconPath": "./static/image/quanz2.png"
-    },
-    {
-      "pagePath": "pages/index/index",
-      "text": "计划",
-      "iconPath": "./static/image/jishua.png",
-      "selectedIconPath": "./static/image/jihua2.png"
-    },
-    {
-      "pagePath": "pages/index/index",
-      "text": "运动",
-      "iconPath": "./static/image/wode.png",
-      "selectedIconPath": "./static/image/wode2.png"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "运动",
+        "iconPath": "/static/image/yundon.png",
+        "selectedIconPath": "./static/image/yundon2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "课程",
+        "iconPath": "./static/image/kecheng.png",
+        "selectedIconPath": "./static/image/kecheng2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "圈子",
+        "iconPath": "./static/image/quanz.png",
+        "selectedIconPath": "./static/image/quanz2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "计划",
+        "iconPath": "./static/image/jishua.png",
+        "selectedIconPath": "./static/image/jihua2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "运动",
+        "iconPath": "./static/image/wode.png",
+        "selectedIconPath": "./static/image/wode2.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

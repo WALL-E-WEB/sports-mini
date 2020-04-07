@@ -59,9 +59,9 @@
 			"current": -1,
 			"list": [
 				{
-					"id": -1,
-					"name": "pages/guide/guide",
-					"pathName": "pages/guide/guide",
+					"id": 0,
+					"name": "pages/course/course",
+					"pathName": "pages/course/course",
 					"query": "",
 					"scene": null
 				},
