@@ -118,10 +118,20 @@ view,text{
 .mg-top-40{
   margin-top: 40rpx;
 }
+.mg-bottom-20{
+  margin-bottom: 20rpx;
+}
 .mg-bottom-40{
   margin-bottom: 40rpx;
 }
-
+/* padding */
+.p-b{
+  padding-bottom: 20rpx;
+}
+/* border */
+.bd-b{
+  border-bottom: 1rpx solid #f1f2f6;
+}
 /*  */
 .text-ell-1{
   display:block ;
