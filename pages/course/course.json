@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "project-title":"/components/project-title/project-title"
+  },
   "navigationStyle":"custom"
 }

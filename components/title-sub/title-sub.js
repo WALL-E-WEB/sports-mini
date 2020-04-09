@@ -14,7 +14,7 @@ Component({
     },
     subtitle:{
       type:String,
-      value:'副标题'
+      value:''
     }
   },
 

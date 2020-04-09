@@ -12,10 +12,18 @@
 			<text class="fc-sub f12"> {{236}} 人参加</text>
 		</view>
 		<view class="flex-r-b mg-top-40 bd-b p-b">
-			<view ><text class="fw">230</text> <text class="f12 fc-sub"> 千卡</text> </view>
-			<view ><text class="fw">230</text> <text class="f12 fc-sub"> 千卡</text> </view>
-			<view ><text class="fw">230</text> <text class="f12 fc-sub"> 千卡</text> </view>
-    </view>
+			<view><text class="fw">230</text> <text class="f12 fc-sub"> 千卡</text> </view>
+			<view><text class="fw">230</text> <text class="f12 fc-sub"> 千卡</text> </view>
+			<view><text class="fw">230</text> <text class="f12 fc-sub"> 千卡</text> </view>
+		</view>
+		<view class="bd-b">
+			<project-title icon="{{false}}">
+				<view class="fw p-20">ONELAP BIKE
+					<text  class="iconfont icon-youbian fc-sub f14 youbian"></text>
+				</view>
+			</project-title>
+		</view>
+
 	</view>
 
 
