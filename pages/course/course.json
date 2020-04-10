@@ -1,6 +1,7 @@
 {
   "usingComponents": {
-    "project-title":"/components/project-title/project-title"
+    "project-title":"/components/project-title/project-title",
+    "item-list":"/components/item-list/item-list"
   },
   "navigationStyle":"custom"
 }

@@ -1,1 +1,21 @@
 /* components/item-list/item-list.wxss */
+.item-list{
+  width: 100%;
+  margin-top: 40rpx;
+}
+.item-list-wrap{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+.item-list-img{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 8rpx;
+}
+.item-list-text{
+  flex: 1;
+  padding-left: 40rpx;
+}

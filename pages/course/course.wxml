@@ -23,7 +23,8 @@
 				</view>
 			</project-title>
 		</view>
-
+		<item-list />
+		<item-list />
 	</view>
 
 
