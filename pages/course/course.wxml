@@ -4,11 +4,11 @@
 		<image class="head-bg" src="/static/image/timg (1).jfif"></image>
 	</view>
 
-	<view class="course-wrap">
+	<view class="course-wrap  {{classFixed}}" id="course-wrapid" >
 		<view class="fw f25 mg-bottom-20">新手耐力体验</view>
 		<text class="f12 fc-sub ">本课程利用坐姿与站姿骑行交替变化。本课程利用坐姿与站姿骑行交替变化。本课程利用坐姿与站姿骑行交替变化。</text>
 		<view class="mg-top-20">
-			<text wx:for="{{5}}" class="iconfont icon-icon-test {{heat<index?'':'active'}}"></text>
+			<text wx:for="{{5}}" wx:key="index" class="iconfont icon-icon-test {{heat<index?'':'active'}}"></text>
 			<text class="fc-sub f12"> {{236}} 人参加</text>
 		</view>
 		<view class="flex-r-b mg-top-40 bd-b p-b">
@@ -23,8 +23,21 @@
 				</view>
 			</project-title>
 		</view>
-		<item-list />
-		<item-list />
+
+		<scroll-view scroll-y="true" style="max-height: 1400rpx;padding-bottom:100rpx">
+			<item-list />
+			<item-list />
+			<item-list />
+			<item-list />
+			<item-list />
+			<item-list />
+			<item-list />
+		</scroll-view>
+
+		<!-- 按钮 -->
+		<view class="btn-wrap">
+			<button-v />
+		</view>
 	</view>
 
 

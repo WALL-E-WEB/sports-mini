@@ -1,11 +1,11 @@
 <!--components/item-list/item-list.wxml-->
 <view class="item-list">
 	<view class="item-list-wrap">
-  <image class="item-list-img" src="{{src}}"></image>
-  <view class="item-list-text">
-    <view class="item-list-main fw f16">{{title}}</view>
-    <view class="item-list-sub fc-sub">{{sub}}</view>
-  </view>
-  <view wx:if="{{time}}" class="item-list-time fc-sub">{{time}}</view>
+		<image class="item-list-img" src="{{src}}"></image>
+		<view class="item-list-text">
+			<view class="item-list-main fw f16">{{title}}</view>
+			<view class="item-list-sub fc-sub">{{sub}}</view>
+		</view>
+		<view wx:if="{{time}}" class="item-list-time fc-sub">{{time}}</view>
 	</view>
 </view>
