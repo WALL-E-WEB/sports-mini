@@ -1,4 +1,7 @@
 // pages/course/course.js
+const {
+  throttle
+} = require('../../utils/util')
 Page({
 
   /**
@@ -7,7 +10,12 @@ Page({
   data: {
     heat: 2,
     top: '',
-    classFixed: ''
+    classFixed: '',
+    mainscrolltop: -200,
+    subscrolltop: 0,
+    mainscroll: true,
+    subscroll: false,
+
   },
 
   /**
@@ -24,24 +32,26 @@ Page({
       this.data.top = res.top
     }).exec()
   },
-  onPageScroll: function (e) {
-    console.log(e)
-    console.log(this.data.top);
-    
-    if (e.scrollTop >= this.data.top) {
-      console.log('bbbbbbbbbb');
-      this.setData({
-        classFixed: 'fixed'
-        // classFixed: ''
-      })
-      return false
-      console.log(this.data.classFixed)
-    }else{
-      console.log('aaa')
-      this.setData({
-        classFixed: ''
-      })
-    }
+  scrollwraplower(e) {
+    this.setData({
+      subscroll: true,
+      mainscroll: false
+    })
 
+
+  },
+  onscrolltoupper() {
+    let _this = this
+    this.setData({
+      subscrolltop: 0,
+    }, function () {
+
+      _this.setData({
+        subscroll: false,
+        mainscroll: true
+      })
+    })
   }
+
+
 })

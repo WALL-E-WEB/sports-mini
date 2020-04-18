@@ -13,7 +13,19 @@ const formatNumber = n => {
   n = n.toString()
   return n[1] ? n : '0' + n
 }
-
+const throttle = function (func, delay) {
+  var prev = Date.now();
+  return function () {
+    var context = this;
+    var args = arguments;
+    var now = Date.now();
+    if (now - prev >= delay) {
+      func.apply(context, args);
+      prev = Date.now();
+    }
+  }
+}
 module.exports = {
-  formatTime: formatTime
+  formatTime: formatTime,
+  throttle
 }

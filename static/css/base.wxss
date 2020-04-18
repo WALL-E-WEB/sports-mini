@@ -67,6 +67,13 @@ view,text{
   align-items: center;
   /* align-content: center; */
 }
+.flex-c-s{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  /* align-content: center; */
+}
 .flex-r-b{
   display: flex;
   justify-content: space-between;
